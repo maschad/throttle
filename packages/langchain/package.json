@@ -1,0 +1,19 @@
+{
+  "name": "@fuels-ts/throttle-langchain",
+  "version": "1.0.0",
+  "description": "An AI agentkit for fuel-ts SDK",
+  "author": "Fuel Labs <contact@fuel.sh> (https://fuel.network/)",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.8",
+    "@langchain/core": "^0.3.18",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
