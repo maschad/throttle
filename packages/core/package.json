@@ -19,7 +19,8 @@
     "type:check": "tsc --noEmit"
   },
   "dependencies": {
-    "fuels": "^0.97.0"
+    "fuels": "^0.97.0",
+    "mira-dex-ts": "^1.0.42"
   },
   "devDependencies": {
     "tsx": "^4.19.2",
