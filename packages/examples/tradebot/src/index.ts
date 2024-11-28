@@ -10,6 +10,7 @@ import 'dotenv/config';
 process.removeAllListeners('warning');
 
 const main = async () => {
+
 	const agent = await intiliazeAgent();
 
 	while (true) {
