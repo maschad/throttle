@@ -1,11 +1,8 @@
 {
   "name": "@fuels-ts/throttle-core",
-  "version": "0.97.0",
+  "version": "1.0.0",
   "description": "",
   "author": "Fuel Labs <contact@fuel.sh> (https://fuel.network/)",
-  "bin": {
-    "create-fuels": "create-fuels.js"
-  },
   "files": [
     "dist",
     "templates"
@@ -24,6 +21,6 @@
   },
   "devDependencies": {
     "tsx": "^4.19.2",
-    "typescript": "^5.6.3"
+    "typescript": "~5.7.2"
   }
 }

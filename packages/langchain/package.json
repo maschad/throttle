@@ -4,16 +4,17 @@
   "description": "An AI agentkit for fuel-ts SDK",
   "author": "Fuel Labs <contact@fuel.sh> (https://fuel.network/)",
   "scripts": {
-    "start": "tsx src/index.ts"
+    "build": "tsup"
   },
   "license": "ISC",
   "dependencies": {
     "@langchain/anthropic": "^0.3.8",
-    "@langchain/core": "^0.3.18",
+    "@langchain/core": "^0.3.19",
     "dotenv": "^16.4.5",
-    "langchain": "^0.3.6"
-  },
-  "devDependencies": {
-    "tsx": "^4.19.2"
+    "langchain": "^0.3.6",
+    "fuels": "^0.97.0",
+    "zod": "^3.23.8",
+    "@fuels-ts/throttle-core": "workspace:*",
+    "tsup": "^8.3.5"
   }
 }

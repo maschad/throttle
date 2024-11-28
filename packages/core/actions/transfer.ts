@@ -1,12 +1,14 @@
 import { WalletUnlocked, TxParamsType, FuelError, TransactionStatus, ErrorCode } from 'fuels';
-export const transfer = async (args: {
+
+export type TransferInput = {
 	wallet: WalletUnlocked;
 	assetId: string;
-	from: string;
 	to: string;
 	amount: number;
 	txParams?: TxParamsType;
-}): Promise<string> => {
+};
+
+export const transfer = async (args: TransferInput): Promise<string> => {
 	const { amount, assetId, to, txParams } = args;
 	const tx = await args.wallet.transfer(to, amount, assetId, txParams);
 

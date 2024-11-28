@@ -1,6 +1,6 @@
 import { WalletUnlocked } from 'fuels';
 
-export const getWalletInfo = async (args: {
+export const getBalance = async (args: {
 	wallet: WalletUnlocked;
 }) => {
 	const { wallet } = args;

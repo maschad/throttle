@@ -1,0 +1,25 @@
+{
+  "name": "@fuel-ts/examples-tradebot",
+  "version": "1.0.0",
+  "description": "An example of a tradebot using throttle-langchain",
+  "author": "Fuel Labs <contact@fuel.sh> (https://fuel.network/)",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.8",
+    "@langchain/core": "^0.3.19",
+    "@langchain/community": "^0.3.16",
+    "@langchain/langgraph": "^0.2.23",
+    "inquirer": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.6",
+    "@fuels-ts/throttle-core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2"
+  }
+}
