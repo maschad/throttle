@@ -1,7 +1,8 @@
-# Work in progress
-# Throttle
+# Throttle 🚧
 
 Throttle allows you to build AI agents that can interact with the Fuel network.
+
+This is still a work in progress
 
 ## Key Features
 - Support for various on-chain actions:
