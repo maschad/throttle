@@ -1,3 +1,5 @@
+This has been superceeded by https://github.com/FuelLabs/fuel-agent-kit
+
 # Throttle 🚧
 
 Throttle allows you to build AI agents that can interact with the Fuel network.
